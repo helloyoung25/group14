@@ -52,25 +52,25 @@ class Actor():
         self.height = height
         self.actor = self.pygame.transform.scale(self.actor, (self.width, self.height)) #객체의 크기 조절
 
-    def setVitality(self, value):
+    def setVitality(self, value):#객체의 생명력 조정
         self.vitality = value
         self.maxVitality = value
 
-    def estimateCenter(self):
+    def estimateCenter(self):#
         self.centerX = self.x + (self.width/2)
         self.centerY = self.y + (self.height/2)
 
-    def decreaseVitality(self, value):
+    def decreaseVitality(self, value):#객체의 생명력 감소
         self.vitality -= value
-        if self.vitality < 0:
+        if self.vitality < 0:#객체의 생명력이 0보다 적은경우 사망관련 부울변수를 True로 바꿈
             self.vitality = 0
             self.isDead = True
 
-    def getVitalStatus(self):
+    def getVitalStatus(self):#객체의 생명력비율
         vitalRatio = self.vitality/self.maxVitality
         x = self.x
         y = self.y + self.height + 5
-        width = vitalRatio * self.width
+        width = vitalRatio * self.width#감소된 생명력 비율만큼 너비 감소
         height = 5
         return x, y, width, height
 
@@ -88,10 +88,10 @@ class Actor():
         self.y = self.y + dY #random.uniform(-20, 20)   
 
 
-    def isCollide(self, otherActor):
-        dist = math.sqrt(math.pow(self.centerX - otherActor.centerX, 2) + math.pow(self.centerY - otherActor.centerY, 2))    
+    def isCollide(self, otherActor):#충돌 관련 함수
+        dist = math.sqrt(math.pow(self.centerX - otherActor.centerX, 2) + math.pow(self.centerY - otherActor.centerY, 2)) #객체간의 거리를 피타고라스로 보여주는 부분   
         print(dist)
-        if dist < otherActor.width/2:
+        if dist < otherActor.width/2:#거리가 장애물객체(?)의 너비의 절반, 즉 반경보다 작을경우 충돌했다 판단
             return True
         else:
             return False
