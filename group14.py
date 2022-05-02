@@ -14,4 +14,4 @@ fourth_meet = "5월 1일"
 print("Group14 name is " +  group_name)
 print("\nGroup members are")
 print(group)
-print("\nWe met at " + first_meet + ", "+ second_meet + ", " + third_meet + ", " + fourth_meet)
+print("\nWe meet at " + first_meet + ", "+ second_meet + ", " + third_meet + ", " + fourth_meet)
