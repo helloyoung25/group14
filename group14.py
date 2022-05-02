@@ -12,6 +12,11 @@ third_meet = "4월 29일"
 fourth_meet = "5월 1일"
 
 print("Group14 name is " +  group_name)
-print("\nGroup members are")
-print(group)
+print("Group members are",end =" " )
+for i in group:
+    if i =="박현준":
+        print(i)
+        break
+    print(i, end=" ,")
+
 print("\nWe meet at " + first_meet + ", "+ second_meet + ", " + third_meet + ", " + fourth_meet)
