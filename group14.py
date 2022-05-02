@@ -19,4 +19,4 @@ for i in group:
         break
     print(i, end=" ,")
 
-print("\nWe meet at " + first_meet + ", "+ second_meet + ", " + third_meet + ", " + fourth_meet)
+print("\nWe met at " + first_meet + ", "+ second_meet + ", " + third_meet + ", " + fourth_meet)
