@@ -38,12 +38,12 @@ class Actor():
         self.actor = self.pygame.transform.scale(self.actor, (self.width, self.height)) #객체의 크기 조절
 
     def setVitality(self, value):
-    def setVitality(self, value):#객체의 생명력 조정
+    def setVitality(self, value):#객체의 생명력 조정및 최대 생명력 설정
         self.vitality = value
         self.maxVitality = value
 
     def estimateCenter(self):
-    def estimateCenter(self):#
+    def estimateCenter(self):#이부분은 뭔지 잘모르곘음
         self.centerX = self.x + (self.width/2)
         self.centerY = self.y + (self.height/2)
 
