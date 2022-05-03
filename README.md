@@ -1,6 +1,6 @@
 # OPEN SOURCE SW PROJECT GROUP 14
 
-![header](https://capsule-render.vercel.app/api?type=rect&color=auto&height=200&section=header&text=THIS SPACE IS FOR GROUP WORK&fontSize=30)
+![header](https://capsule-render.vercel.app/api?type=rect&color=000000&height=180&section=header&text="THIS SPACE IS FOR GROUP WORK"&fontSize=70&fontColor=FFFFFF)
 
 
 
