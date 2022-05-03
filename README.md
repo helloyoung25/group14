@@ -1,7 +1,8 @@
 # OPEN SOURCE SW PROJECT GROUP 14
-===
-THIS SPACE IS FOR GROUP WORK
----
+
+![header](https://capsule-render.vercel.app/api?type=rect&color=auto&height=200&section=header&text=THIS SPACE IS FOR GROUP WORK&fontSize=30)
+
+
 
 ### OUR CODING LANGUAGE <img src="https://img.shields.io/badge/Python-FFFFFF?style=flat&logo=Python&logoColor=black"/>
 
@@ -11,3 +12,7 @@ READ ME COUNTING [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?u
 OUR README LANGUAGE PROPORTION
 ---
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=helloyoung25)](https://github.com/helloyoung25/github-readme-stats)
+
+
+
+T
