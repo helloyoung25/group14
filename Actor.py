@@ -68,9 +68,7 @@ class Actor():
 @@ -88,10 +88,10 @@ def moveRandomly(self, nX, nY):
         self.y = self.y + dY #random.uniform(-20, 20)   
 
-
-    def isCollide(self, otherActor):
-        dist = math.sqrt(math.pow(self.centerX - otherActor.centerX, 2) + math.pow(self.centerY - otherActor.centerY, 2))    
+  
     def isCollide(self, otherActor):#충돌 관련 함수
         dist = math.sqrt(math.pow(self.centerX - otherActor.centerX, 2) + math.pow(self.centerY - otherActor.centerY, 2)) #객체간의 거리를 피타고라스로 보여주는 부분   
         print(dist)
@@ -79,3 +77,8 @@ class Actor():
             return True
         else:
             return False
+     def Damage(self,otherActor):
+        if isCollide(self,otherActor) == True:
+            #이부분을 어떻게 구현해야하나
+        else:
+            return self.vitality
