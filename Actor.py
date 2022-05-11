@@ -59,6 +59,8 @@ class Actor():
     def getVitalStatus(self):#객체의 생명력비율
         vitalRatio = self.vitality/self.maxVitality
         x = self.x
+        
+        
         y = self.y + self.height + 5
         width = vitalRatio * self.width
         width = vitalRatio * self.width#감소된 생명력 비율만큼 너비 감소

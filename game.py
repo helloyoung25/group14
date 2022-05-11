@@ -50,10 +50,10 @@ clock = pygame.time.Clock()
 
 
 hero = Actor.Actor(pygame) # Actor클래스를 사용하여 객체(주인공) 하나를 생성
-hero.setImage("buzz.png")
-hero.setScale(100, 100)
-hero.setPosition(nX/2, nY/2 + 100)
-hero.setVitality(100)
+hero.setImage("buzz.png") #이미지 설정
+hero.setScale(100, 100) #크기 설정
+hero.setPosition(nX/2, nY/2 + 100) #위치 설정
+hero.setVitality(100) #체력 설정
 hero.estimateCenter()
 
 
@@ -84,7 +84,7 @@ ds = 0
 
 
 #반복자 while문
-while not done: #done이 False를 유지하는 동안 계속 실행, not False = Ture
+while not done: #done이 False를 유지하는 동안 계속 실행, not False = True
     clock.tick(50) #set on 10 frames per second (FPS)
 
     #게임을 실행하는 기능들을 실제로 여기에 구현
