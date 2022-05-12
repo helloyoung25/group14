@@ -53,7 +53,7 @@ hero = Actor.Actor(pygame) # Actor클래스를 사용하여 객체(주인공) �
 hero.setImage("buzz.png") #이미지 설정
 hero.setScale(100, 100) #크기 설정
 hero.setPosition(nX/2, nY/2 + 100) #위치 설정
-hero.setVitality(100) #체력 설정
+hero.setVitality(200) #체력 설정
 hero.estimateCenter()
 
 
