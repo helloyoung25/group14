@@ -170,7 +170,7 @@ while not done: #done이 False를 유지하는 동안 계속 실행, not False =
         enermy.drawEnergyBar(screen)
         enermy.moveRandomly(nX, nY)
     
-
+    #수정 요망
 
     pygame.display.update()
 
